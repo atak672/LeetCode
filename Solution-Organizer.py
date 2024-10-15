@@ -6,8 +6,8 @@ import inflect
 p = inflect.engine()
 
 # Directories
-SOURCE_DIR = r"C:\Users\atak6\Downloads\test\submissions"  # Your scraped solutions directory
-DEST_DIR = r"C:\Users\atak6\Projects\LeetCode\Solutions"  # Target directory for organized solutions
+SOURCE_DIR = r""  # Your scraped solutions directory
+DEST_DIR = r""  # Target directory for organized solutions
 
 # Ensure the destination directory exists
 os.makedirs(DEST_DIR, exist_ok=True)
